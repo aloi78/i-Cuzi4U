@@ -8,6 +8,7 @@ export const COLORS = {
 export const LOGO_URL = 'https://lh3.googleusercontent.com/d/1yyNJdN-I0zvcOsN5ZfRBCYleoPswHWBg';
 
 
+
 export const SERVICES = [
   {
     id: 'mattress',
