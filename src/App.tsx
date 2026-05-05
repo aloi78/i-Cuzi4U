@@ -6,6 +6,7 @@ import {
   Car, 
   Wind, 
   Waves, 
+  CookingPot,
   MessageCircle, 
   Phone, 
   CheckCircle2, 
@@ -26,6 +27,7 @@ const IconMap: Record<string, any> = {
   Car,
   Wind,
   Waves,
+  CookingPot,
 };
 
 export default function App() {

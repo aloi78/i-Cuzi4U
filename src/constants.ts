@@ -50,6 +50,14 @@ export const SERVICES = [
     icon: 'Waves',
     image: 'https://lh3.googleusercontent.com/d/1aS8s_ScBV6GMikA0FfwzMtJQ_DCY0G1Q',
   },
+  {
+    id: 'hood-hob',
+    title: 'Hood & Hob Cleaning',
+    description: 'Deep degreasing and cleaning for your kitchen ventilation and stovetop.',
+    price: 'From RM180',
+    icon: 'CookingPot',
+    image: 'https://lh3.googleusercontent.com/d/1Gesd4i2XwHHtWBGWnVOzOcMdZTOm4aDP',
+  },
 ];
 
 export const PACKAGES = [

@@ -51,6 +51,10 @@ const resources = {
           title: 'Carpet Extraction',
           desc: 'Deep extraction for home rugs and office carpets.',
         },
+        'hood-hob': {
+          title: 'Hood & Hob Deep Cleaning',
+          desc: 'Professional degreasing and sanitization for kitchen ventilation and stovetops.',
+        },
       },
       process: {
         title: 'The i-Cuzi4U 6-Stage Process',
@@ -175,6 +179,10 @@ const resources = {
           title: 'Pembersihan Permaidani',
           desc: 'Pengekstrakan dalaman untuk permaidani rumah dan pejabat.',
         },
+        'hood-hob': {
+          title: 'Pembersihan Hood & Hob',
+          desc: 'Penyahgrisan dan sanitasi profesional untuk pengudaraan dapur dan dapur memasak.',
+        },
       },
       process: {
         title: 'Proses 6-Peringkat i-Cuzi4U',
@@ -298,6 +306,10 @@ const resources = {
         carpet: {
           title: '地毯深层清洁',
           desc: '为家居地毯和办公室地毯提供深层抽吸清洁。',
+        },
+        'hood-hob': {
+          title: '抽油烟机与灶台清洁',
+          desc: '针对厨房通风系统和灶台的专业除油与消毒服务。',
         },
       },
       process: {
