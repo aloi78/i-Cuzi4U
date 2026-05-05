@@ -102,6 +102,23 @@ const resources = {
         serving: 'Serving KL, Selangor, PJ, Subang, Shah Alam & more.',
         rights: '© 2026 i-Cuzi4U Cleaning Services. All rights reserved.',
       },
+      privacy: {
+        title: 'Privacy Policy',
+        last_updated: 'Last updated: May 20, 2026',
+        introduction: 'At i-Cuzi4U, we are committed to protecting your privacy and ensuring that your personal information is handled in a safe and responsible manner.',
+        sections: {
+          collection_title: '1. Information We Collect',
+          collection_desc: 'We may collect personal information such as your name, address, phone number, and email when you request a quote or book a service through our platform or WhatsApp.',
+          usage_title: '2. How We Use Your Information',
+          usage_desc: 'Your information is used purely to provide our deep cleaning services, process your bookings, and communicate with you regarding your service requests.',
+          third_party_title: '3. Third-Party Disclosure',
+          third_party_desc: 'We do not sell, trade, or otherwise transfer your personal information to outside parties. This does not include trusted partners who assist us in operating our website or conducting our business, as long as those parties agree to keep this information confidential.',
+          security_title: '4. Security',
+          security_desc: 'We implement a variety of security measures to maintain the safety of your personal information.',
+          contact_title: '5. Contact Us',
+          contact_desc: 'If you have any questions regarding this privacy policy, you may contact us at +6011-6263 8228.',
+        }
+      },
       cta: {
         title: 'Ready for a Cleaner Home?',
         desc: 'Join thousands of satisfied customers in KL & Selangor. Get a free quote within minutes via WhatsApp.',
@@ -209,6 +226,23 @@ const resources = {
         serving: 'Berkhidmat di KL, Selangor, PJ, Subang, Shah Alam & banyak lagi.',
         rights: '© 2026 i-Cuzi4U Cleaning Services. Hak cipta terpelihara.',
       },
+      privacy: {
+        title: 'Dasar Privasi',
+        last_updated: 'Terakhir dikemas kini: 20 Mei 2026',
+        introduction: 'Di i-Cuzi4U, kami komited untuk melindungi privasi anda dan memastikan maklumat peribadi anda dikendalikan dengan cara yang selamat dan bertanggungjawab.',
+        sections: {
+          collection_title: '1. Maklumat yang Kami Kumpul',
+          collection_desc: 'Kami mungkin mengumpul maklumat peribadi seperti nama, alamat, nombor telefon, dan e-mel anda apabila anda meminta sebut harga atau menempah perkhidmatan melalui platform kami atau WhatsApp.',
+          usage_title: '2. Cara Kami Menggunakan Maklumat Anda',
+          usage_desc: 'Maklumat anda digunakan semata-mata untuk menyediakan perkhidmatan pembersihan dalaman kami, memproses tempahan anda, dan berkomunikasi dengan anda mengenai permintaan perkhidmatan anda.',
+          third_party_title: '3. Pendedahan kepada Pihak Ketiga',
+          third_party_desc: 'Kami tidak menjual, berdagang, atau memindahkan maklumat peribadi anda kepada pihak luar. Ini tidak termasuk rakan kongsi yang dipercayai yang membantu kami dalam mengendalikan laman web kami atau menjalankan perniagaan kami, selagi pihak tersebut bersetuju untuk merahsiakan maklumat ini.',
+          security_title: '4. Keselamatan',
+          security_desc: 'Kami melaksanakan pelbagai langkah keselamatan untuk mengekalkan keselamatan maklumat peribadi anda.',
+          contact_title: '5. Hubungi Kami',
+          contact_desc: 'Jika anda mempunyai sebarang soalan mengenai dasar privasi ini, anda boleh menghubungi kami di +6011-6263 8228.',
+        }
+      },
       cta: {
         title: 'Bersedia untuk Rumah yang Lebih Bersih?',
         desc: 'Sertai beribu-ribu pelanggan yang berpuas hati di KL & Selangor. Dapatkan sebut harga percuma dalam masa beberapa minit melalui WhatsApp.',
@@ -315,6 +349,23 @@ const resources = {
         contact: '联系',
         serving: '服务范围包括吉隆坡、雪兰莪、八打灵再也、梳邦、莎阿南等。',
         rights: '© 2026 i-Cuzi4U 清洁服务。版权所有。',
+      },
+      privacy: {
+        title: '隐私政策',
+        last_updated: '最后更新日期：2026年5月20日',
+        introduction: '在 i-Cuzi4U，我们致力于保护您的隐私，并确保以安全且负责任的方式处理您的个人信息。',
+        sections: {
+          collection_title: '1. 我们收集的信息',
+          collection_desc: '当您通过我们的平台或 WhatsApp 请求报价或预订服务时，我们可能会收集您的姓名、地址、电话号码和电子邮件等个人信息。',
+          usage_title: '2. 我们如何使用您的信息',
+          usage_desc: '您的信息仅用于提供我们的深层清洁服务、处理您的预订以及就您的服务请求与您沟通。',
+          third_party_title: '3. 第三方披露',
+          third_party_desc: '我们不会将您的个人信息出售、交易或以其他方式转让给外部各方。这不包括协助我们运营网站或开展业务的合作伙伴，只要这些各方同意对这些信息保密。',
+          security_title: '4. 安全保障',
+          security_desc: '我们采取各种安全措施来维护您个人信息的安全。',
+          contact_title: '5. 联系我们',
+          contact_desc: '如果您对本隐私政策有任何疑问，请致电 +6011-6263 8228 与我们联系。',
+        }
       },
       cta: {
         title: '准备好迎接更干净的家了吗？',
