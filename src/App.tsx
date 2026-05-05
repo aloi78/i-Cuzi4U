@@ -95,7 +95,7 @@ export default function App() {
       {/* Header */}
       <header className={`sticky-header transition-all duration-300 ${scrolled ? 'py-3' : 'py-5'}`}>
         <div className="container mx-auto px-4 flex items-center justify-between">
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-1">
             <img 
               src={getAssetPath(LOGO_URL)} 
               alt="i-Cuzi4U Logo" 
@@ -448,7 +448,7 @@ export default function App() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
             <div className="col-span-1 md:col-span-1">
-              <div className="flex items-center gap-2 mb-6">
+              <div className="flex items-center gap-1 mb-6">
                 <img 
                   src={getAssetPath(LOGO_URL)} 
                   alt="i-Cuzi4U Logo" 
