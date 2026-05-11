@@ -99,6 +99,40 @@ export default function App() {
     window.open(WHATSAPP_LINK(message), '_blank');
   };
 
+  const SwappingBackground = () => {
+    const serviceImages = SERVICES.map(s => getAssetPath(s.image));
+    const [index, setIndex] = useState(0);
+
+    useEffect(() => {
+      const timer = setInterval(() => {
+        setIndex((prev) => (prev + 1) % serviceImages.length);
+      }, 5000); // Swap every 5 seconds
+      return () => clearInterval(timer);
+    }, [serviceImages.length]);
+
+    return (
+      <div className="absolute inset-0 overflow-hidden pointer-events-none opacity-50 z-0 bg-primary/5">
+        <AnimatePresence mode="wait">
+          <motion.div
+            key={index}
+            initial={{ opacity: 0, scale: 1.1 }}
+            animate={{ opacity: 0.7, scale: 1 }}
+            exit={{ opacity: 0, scale: 1.05 }}
+            transition={{ duration: 2, ease: "easeInOut" }}
+            className="absolute inset-0 w-full h-full"
+          >
+            <img 
+              src={serviceImages[index]} 
+              alt="" 
+              className="w-full h-full object-cover grayscale-[20%] blur-[1px]"
+              referrerPolicy="no-referrer"
+            />
+          </motion.div>
+        </AnimatePresence>
+      </div>
+    );
+  };
+
   const PrivacyPolicy = () => (
     <motion.div 
       initial={{ opacity: 0, y: 20 }}
@@ -280,7 +314,8 @@ export default function App() {
         {currentView === 'home' ? (
           <>
             {/* Hero Section */}
-            <section className="relative pt-12 pb-20 md:pt-24 md:pb-32 overflow-hidden">
+            <section className="relative pt-12 pb-20 md:pt-24 md:pb-32 overflow-hidden bg-white/10">
+              <SwappingBackground />
               <div className="container mx-auto px-4 relative z-10">
                 <div className="max-w-3xl">
                   <motion.div
@@ -317,8 +352,7 @@ export default function App() {
                 </div>
               </div>
               
-              {/* Background Decoration */}
-              <div className="absolute top-0 right-0 w-1/2 h-full bg-primary/5 -skew-x-12 translate-x-1/4 -z-0 hidden md:block" />
+              {/* Background Decoration removed for scrolling images */}
             </section>
 
             {/* Trust Bar */}
