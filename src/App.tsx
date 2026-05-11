@@ -200,8 +200,6 @@ export default function App() {
               className="h-[52px] w-auto"
               referrerPolicy="no-referrer"
             />
-            <div className="hidden w-10 h-10 bg-primary rounded-lg flex items-center justify-center text-white font-bold text-xl">i</div>
-            <span className="text-2xl font-bold font-logo text-primary tracking-tight">i-Cuzi<span className="text-[#FFD800]">4</span><span className="text-[#3AD2FF]">U</span></span>
           </div>
 
           {/* Desktop Nav */}
@@ -574,8 +572,6 @@ export default function App() {
                   className="h-[42px] w-auto"
                   referrerPolicy="no-referrer"
                 />
-                <div className="hidden w-8 h-8 bg-primary rounded-lg flex items-center justify-center text-white font-bold">i</div>
-                <span className="text-xl font-bold font-logo text-primary">i-Cuzi<span className="text-[#FFD800]">4</span><span className="text-[#3AD2FF]">U</span></span>
               </div>
               <p className="text-primary font-bold text-sm mb-4 italic">
                 {renderBrandText(t('hero.slogan'), 'hero')}
