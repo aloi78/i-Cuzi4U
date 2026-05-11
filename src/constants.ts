@@ -5,7 +5,7 @@ export const COLORS = {
   bg: '#F9F9F9',      // Light Gray
 };
 
-export const LOGO_URL = 'https://lh3.googleusercontent.com/d/1yyNJdN-I0zvcOsN5ZfRBCYleoPswHWBg';
+export const LOGO_URL = 'https://lh3.googleusercontent.com/d/1GNCdlg3aO2ZMbeyc-xSuVEb889AOuSqG';
 
 
 
