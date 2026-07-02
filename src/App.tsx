@@ -390,7 +390,15 @@ export default function App() {
               <div className="container mx-auto px-4">
                 <div className="text-center mb-16">
                   <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">{renderBrandText(t('services.title'))}</h2>
-                  <p className="text-gray-600 max-w-2xl mx-auto">{renderBrandText(t('services.desc'))}</p>
+                  <p className="text-gray-600 max-w-3xl mx-auto text-base md:text-lg leading-relaxed mb-6">{renderBrandText(t('services.desc'))}</p>
+                  <div className="flex flex-wrap justify-center gap-2 md:gap-3 max-w-4xl mx-auto">
+                    {SERVICES.map((service) => (
+                      <span key={service.id} className="inline-flex items-center gap-1.5 px-3.5 py-1.5 bg-white border border-gray-200 rounded-full text-xs md:text-sm font-bold text-primary shadow-sm hover:border-primary/50 transition-all duration-300">
+                        <span className="w-2 h-2 rounded-full bg-[#3AD2FF]" />
+                        {t(`services.${service.id}.title`)}
+                      </span>
+                    ))}
+                  </div>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

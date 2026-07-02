@@ -13,7 +13,7 @@ const resources = {
       },
       hero: {
         badge: "KL & SELANGOR'S HYGIENE EXPERTS",
-        title1: 'Professional Deep Cleaning.',
+        title1: 'Professional Deep Cleaning Services In Kuala Lumpur & Selangor',
         title2: 'Specialized 4U.',
         slogan: '"Cleaning is Our Responsibility. i-Cuzi4U Je!"',
         desc: 'We specialize in Mattress, Sofa, Curtain, Carpet, and Car Seat hygiene. Using German Kärcher® technology and baby-safe chemicals for a truly clean home.',
@@ -28,32 +28,32 @@ const resources = {
       },
       services: {
         title: 'Our Core Services',
-        desc: 'Specialized deep cleaning solutions for every corner of your home and vehicle.',
+        desc: 'We deliver clinical-grade hygiene and specialized deep cleaning across KL & Selangor. Our core expertise covers Mattress Cleaning, Sofa Cleaning, Car Seat Cleaning, Curtain Cleaning, Carpet Cleaning, and Kitchen Hood & Hob Cleaning—all powered by German Kärcher® technology and 100% baby-safe solutions.',
         book_now: 'Book Now',
         from: 'From',
         mattress: {
           title: 'Mattress Cleaning',
-          desc: 'Dust mite and allergen focus for a healthier sleep.',
+          desc: 'Deep UV sterilization & high-powered extraction eliminating dust mites, bacteria, and allergens for clinical-grade sleep hygiene.',
         },
         sofa: {
           title: 'Sofa Cleaning',
-          desc: 'Specialized tracks for Fabric and Leather upholstery.',
+          desc: 'Specialized deep shampooing and stain extraction restoring both fabric and genuine leather upholstery to pristine condition.',
         },
         'car-seat': {
-          title: 'Car Seat Deep Cleaning',
-          desc: 'Professional sanitisation and odour removal for all vehicle seats and interiors.',
+          title: 'Car Seat Cleaning',
+          desc: 'Intensive stain removal, antibacterial sanitization, and odor elimination for all vehicle interiors and upholstery.',
         },
         curtain: {
-          title: 'Curtain Steam Cleaning',
-          desc: 'On-site steam cleaning without dismantling.',
+          title: 'Curtain Cleaning',
+          desc: 'Hassle-free on-site high-temperature steam sanitization and dust removal without dismantling or taking down your drapes.',
         },
         carpet: {
-          title: 'Carpet Extraction',
-          desc: 'Deep extraction for home rugs and office carpets.',
+          title: 'Carpet Cleaning',
+          desc: 'Industrial-grade deep water extraction and sanitization reviving home rugs, Persian carpets, and heavy-duty office carpets.',
         },
         'hood-hob': {
-          title: 'Hood & Hob Deep Cleaning',
-          desc: 'Professional degreasing and sanitization for kitchen ventilation and stovetops.',
+          title: 'Kitchen Hood & Hob Cleaning',
+          desc: 'Professional degreasing, carbon removal, and complete sanitization for your kitchen stovetop, exhaust ventilation, and filters.',
         },
       },
       process: {
@@ -141,7 +141,7 @@ const resources = {
       },
       hero: {
         badge: "PAKAR KEBERSIHAN KL & SELANGOR",
-        title1: 'Pembersihan Dalaman Profesional.',
+        title1: 'Pembersihan Dalaman Profesional Di Kuala Lumpur & Selangor.',
         title2: 'Dikhususkan Untuk Anda.',
         slogan: '"Pembersihan adalah Tanggungjawab Kami. i-Cuzi4U Je!"',
         desc: 'Kami pakar dalam kebersihan Tilam, Sofa, Langsir, Permaidani, dan Kerusi Kereta. Menggunakan teknologi Kärcher® Jerman dan bahan kimia selamat untuk bayi untuk rumah yang benar-benar bersih.',
@@ -156,32 +156,32 @@ const resources = {
       },
       services: {
         title: 'Perkhidmatan Teras Kami',
-        desc: 'Penyelesaian pembersihan dalaman khusus untuk setiap sudut rumah dan kenderaan anda.',
+        desc: 'Kami menawarkan kebersihan gred klinikal dan pembersihan dalaman khusus di seluruh KL & Selangor. Kepakaran teras kami merangkumi Pembersihan Tilam, Pembersihan Sofa, Pembersihan Kerusi Kereta, Pembersihan Langsir, Pembersihan Permaidani, dan Pembersihan Hood & Hob Dapur—dikuasakan oleh teknologi Kärcher® Jerman dan larutan 100% selamat untuk bayi.',
         book_now: 'Tempah Sekarang',
         from: 'Dari',
         mattress: {
           title: 'Pembersihan Tilam',
-          desc: 'Fokus pada hama habuk dan alergen untuk tidur yang lebih sihat.',
+          desc: 'Pensterilan UV & pengekstrakan berkuasa tinggi membasmi hama habuk, bakteria, dan alergen untuk kebersihan tidur gred klinikal.',
         },
         sofa: {
           title: 'Pembersihan Sofa',
-          desc: 'Laluan khusus untuk upholsteri Fabrik dan Kulit.',
+          desc: 'Syampu mendalam khusus dan penyingkiran kotoran untuk memulihkan upholsteri fabrik dan kulit asli ke keadaan asal yang bersih.',
         },
         'car-seat': {
-          title: 'Pembersihan Dalaman Kerusi Kereta',
-          desc: 'Sanitasi profesional dan penyingkiran bau untuk semua jenis kerusi kenderaan.',
+          title: 'Pembersihan Kerusi Kereta',
+          desc: 'Penyingkiran kotoran intensif, sanitasi antibakteria, dan penghilangan bau untuk semua bahagian dalaman dan upholsteri kenderaan.',
         },
         curtain: {
-          title: 'Pembersihan Stim Langsir',
-          desc: 'Pembersihan stim di lokasi tanpa perlu dibuka.',
+          title: 'Pembersihan Langsir',
+          desc: 'Sanitasi stim bersuhu tinggi dan penyingkiran habuk di lokasi tanpa perlu membuka atau menanggalkan langsir anda.',
         },
         carpet: {
           title: 'Pembersihan Permaidani',
-          desc: 'Pengekstrakan dalaman untuk permaidani rumah dan pejabat.',
+          desc: 'Pengekstrakan air dalam gred industri dan sanitasi untuk menyegarkan semula permaidani rumah, permaidani Parsi, dan pejabat.',
         },
         'hood-hob': {
-          title: 'Pembersihan Hood & Hob',
-          desc: 'Penyahgrisan dan sanitasi profesional untuk pengudaraan dapur dan dapur memasak.',
+          title: 'Pembersihan Hood & Hob Dapur',
+          desc: 'Penyahgrisan profesional, penyingkiran karbon, dan sanitasi lengkap untuk dapur memasak, pengudaraan ekzos, dan penapis anda.',
         },
       },
       process: {
@@ -269,7 +269,7 @@ const resources = {
       },
       hero: {
         badge: "吉隆坡和雪兰莪卫生专家",
-        title1: '专业深层清洁。',
+        title1: '吉隆坡和雪兰莪专业深层清洁。',
         title2: '为您量身定制。',
         slogan: '"清洁是我们的责任。i-Cuzi4U Je!"',
         desc: '我们专注于床垫、沙发、窗帘、地毯和汽车座椅的卫生。采用德国 Kärcher® 技术和婴儿安全化学品，为您打造真正干净的家。',
@@ -284,32 +284,32 @@ const resources = {
       },
       services: {
         title: '我们的核心服务',
-        desc: '为您家居和车辆的每个角落提供专业的深层清洁解决方案。',
+        desc: '我们为吉隆坡与雪兰莪地区提供临床级的专业深层清洁解决方案。核心服务涵盖床垫清洁、沙发清洁、汽车座椅清洁、窗帘清洁、地毯清洁以及厨房抽油烟机与灶台清洁——全程采用德国 Kärcher® 顶尖设备与 100% 婴儿安全清洁剂。',
         book_now: '立即预订',
         from: '起',
         mattress: {
           title: '床垫清洁',
-          desc: '专注于除尘螨和过敏原，让您睡得更健康。',
+          desc: '采用深层紫外线杀菌与强力抽吸技术，彻底清除尘螨、细菌与过敏原，打造临床级的健康睡眠环境。',
         },
         sofa: {
           title: '沙发清洁',
-          desc: '针对布艺和皮革家具的专业清洁。',
+          desc: '针对布艺与真皮沙发提供专业深层洗涤与顽渍抽吸护理，令您的家具恢复洁净如初。',
         },
         'car-seat': {
-          title: '汽车座椅深层清洁',
-          desc: '专业的座椅消毒与异味去除，为您打造清新的驾驶空间。',
+          title: '汽车座椅清洁',
+          desc: '强力去除顽固污渍与车内异味，配合全面抗菌消毒，为全车座椅与内饰重塑清新干净。',
         },
         curtain: {
-          title: '窗帘蒸汽清洁',
-          desc: '无需拆卸，现场蒸汽清洁。',
+          title: '窗帘清洁',
+          desc: '无需拆卸窗帘，现场提供专业高温蒸汽消毒与除尘护理，省时便捷省心。',
         },
         carpet: {
-          title: '地毯深层清洁',
-          desc: '为家居地毯和办公室地毯提供深层抽吸清洁。',
+          title: '地毯清洁',
+          desc: '采用工业级深层水抽吸与全方位消毒设备，彻底洗净并恢复家居、波斯地毯与商用地毯的洁净松软。',
         },
         'hood-hob': {
-          title: '抽油烟机与灶台清洁',
-          desc: '针对厨房通风系统和灶台的专业除油与消毒服务。',
+          title: '厨房抽油烟机与灶台清洁',
+          desc: '高效高效除油去垢，深层分解顽固油污与碳化残留，对抽油烟机、排烟管与灶台进行全面除菌消毒。',
         },
       },
       process: {
