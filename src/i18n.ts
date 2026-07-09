@@ -12,8 +12,8 @@ const resources = {
         whatsapp: 'WhatsApp Us',
       },
       hero: {
-        badge: "KL & SELANGOR'S HYGIENE EXPERTS",
-        title1: 'Professional Deep Cleaning Services In Kuala Lumpur & Selangor',
+        badge: "HYGIENE EXPERTS IN KLANG VALLEY",
+        title1: 'Professional Deep Cleaning Services In Klang Valley',
         title2: 'Specialized 4U.',
         slogan: '"Cleaning is Our Responsibility. i-Cuzi4U Je!"',
         desc: 'We specialize in Mattress, Sofa, Curtain, Carpet, and Car Seat hygiene. Using German Kärcher® technology and baby-safe chemicals for a truly clean home.',
@@ -125,7 +125,7 @@ const resources = {
       },
       cta: {
         title: 'Ready for a Cleaner Home?',
-        desc: 'Join thousands of satisfied customers in KL & Selangor. Get a free quote within minutes via WhatsApp.',
+        desc: 'Join thousands of satisfied customers in Klang Valley. Get a free quote within minutes via WhatsApp.',
         whatsapp: 'WhatsApp Us Now',
         call: 'Call +6011-6263 8228',
       }
@@ -140,8 +140,8 @@ const resources = {
         whatsapp: 'WhatsApp Kami',
       },
       hero: {
-        badge: "PAKAR KEBERSIHAN KL & SELANGOR",
-        title1: 'Pembersihan Dalaman Profesional Di Kuala Lumpur & Selangor.',
+        badge: "PAKAR KEBERSIHAN DI LEMBAH KLANG",
+        title1: 'Pembersihan Dalaman Profesional Di Lembah Klang.',
         title2: 'Dikhususkan Untuk Anda.',
         slogan: '"Pembersihan adalah Tanggungjawab Kami. i-Cuzi4U Je!"',
         desc: 'Kami pakar dalam kebersihan Tilam, Sofa, Langsir, Permaidani, dan Kerusi Kereta. Menggunakan teknologi Kärcher® Jerman dan bahan kimia selamat untuk bayi untuk rumah yang benar-benar bersih.',
@@ -156,7 +156,7 @@ const resources = {
       },
       services: {
         title: 'Perkhidmatan Teras Kami',
-        desc: 'Kami menawarkan kebersihan gred klinikal dan pembersihan dalaman khusus di seluruh KL & Selangor. Kepakaran teras kami merangkumi Pembersihan Tilam, Pembersihan Sofa, Pembersihan Kerusi Kereta, Pembersihan Langsir, Pembersihan Permaidani, dan Pembersihan Hood & Hob Dapur—dikuasakan oleh teknologi Kärcher® Jerman dan larutan 100% selamat untuk bayi.',
+        desc: 'Kami menawarkan kebersihan gred klinikal dan pembersihan dalaman khusus di seluruh Lembah Klang. Kepakaran teras kami merangkumi Pembersihan Tilam, Pembersihan Sofa, Pembersihan Kerusi Kereta, Pembersihan Langsir, Pembersihan Permaidani, dan Pembersihan Hood & Hob Dapur—dikuasakan oleh teknologi Kärcher® Jerman dan larutan 100% selamat untuk bayi.',
         book_now: 'Tempah Sekarang',
         from: 'Dari',
         mattress: {
@@ -253,7 +253,7 @@ const resources = {
       },
       cta: {
         title: 'Bersedia untuk Rumah yang Lebih Bersih?',
-        desc: 'Sertai beribu-ribu pelanggan yang berpuas hati di KL & Selangor. Dapatkan sebut harga percuma dalam masa beberapa minit melalui WhatsApp.',
+        desc: 'Sertai beribu-ribu pelanggan yang berpuas hati di Lembah Klang. Dapatkan sebut harga percuma dalam masa beberapa minit melalui WhatsApp.',
         whatsapp: 'WhatsApp Kami Sekarang',
         call: 'Hubungi +6011-6263 8228',
       }
@@ -268,8 +268,8 @@ const resources = {
         whatsapp: '联系我们',
       },
       hero: {
-        badge: "吉隆坡和雪兰莪卫生专家",
-        title1: '吉隆坡和雪兰莪专业深层清洁。',
+        badge: "巴生谷卫生专家",
+        title1: '巴生谷专业深层清洁服务。',
         title2: '为您量身定制。',
         slogan: '"清洁是我们的责任。i-Cuzi4U Je!"',
         desc: '我们专注于床垫、沙发、窗帘、地毯和汽车座椅的卫生。采用德国 Kärcher® 技术和婴儿安全化学品，为您打造真正干净的家。',
@@ -381,7 +381,7 @@ const resources = {
       },
       cta: {
         title: '准备好迎接更干净的家了吗？',
-        desc: '加入吉隆坡和雪兰莪数千名满意的客户。通过 WhatsApp 在几分钟内获取免费报价。',
+        desc: '加入巴生谷数千名满意的客户。通过 WhatsApp 在几分钟内获取免费报价。',
         whatsapp: '立即 WhatsApp 我们',
         call: '致电 +6011-6263 8228',
       }
