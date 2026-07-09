@@ -28,7 +28,7 @@ const resources = {
       },
       services: {
         title: 'Our Core Services',
-        desc: 'We deliver clinical-grade hygiene and specialized deep cleaning across KL & Selangor. Our core expertise covers Mattress Cleaning, Sofa Cleaning, Car Seat Cleaning, Curtain Cleaning, Carpet Cleaning, and Kitchen Hood & Hob Cleaning—all powered by German Kärcher® technology and 100% Child-Safe & Eco-Friendly solutions.',
+        desc: 'We deliver clinical-grade hygiene and specialized deep cleaning across Klang Valley. Our core expertise covers Mattress Cleaning, Sofa Cleaning, Car Seat Cleaning, Curtain Cleaning, Carpet Cleaning, and Kitchen Hood & Hob Cleaning—all powered by German Kärcher® technology and 100% Child-Safe & Eco-Friendly solutions.',
         book_now: 'Book Now',
         from: 'From',
         mattress: {
@@ -284,7 +284,7 @@ const resources = {
       },
       services: {
         title: '我们的核心服务',
-        desc: '我们为吉隆坡与雪兰莪地区提供临床级的专业深层清洁解决方案。核心服务涵盖床垫清洁、沙发清洁、汽车座椅清洁、窗帘清洁、地毯清洁以及厨房抽油烟机与灶台清洁——全程采用德国 Kärcher® 顶尖设备与 100% 儿童安全与环保清洁剂。',
+        desc: '我们为巴生谷地区提供临床级的专业深层清洁解决方案。核心服务涵盖床垫清洁、沙发清洁、汽车座椅清洁、窗帘清洁、地毯清洁以及厨房抽油烟机与灶台清洁——全程采用德国 Kärcher® 顶尖设备与 100% 儿童安全与环保清洁剂。',
         book_now: '立即预订',
         from: '起',
         mattress: {
