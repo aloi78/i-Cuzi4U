@@ -33,27 +33,27 @@ const resources = {
         from: 'From',
         mattress: {
           title: 'Mattress Cleaning',
-          desc: 'Deep UV sterilization & high-powered extraction eliminating dust mites, bacteria, and allergens for clinical-grade sleep hygiene.',
+          desc: "i-Cuzi4U's mattress cleaning combines Karcher deep extraction and steam technology to completely eradicate dust mites, bed bugs, stains, and bacteria—leaving your bed sterile, fresh, and spotless.",
         },
         sofa: {
           title: 'Sofa Cleaning',
-          desc: 'Specialized deep shampooing and stain extraction restoring both fabric and genuine leather upholstery to pristine condition.',
+          desc: 'i-Cuzi4U offers expert leather and fabric sofa cleaning. Our advanced deep-cleaning technology removes tough stains, sanitizes, and extends the lifespan of your favorite furniture.',
         },
         'car-seat': {
           title: 'Car Seat Cleaning',
-          desc: 'Intensive stain removal, antibacterial sanitization, and odor elimination for all vehicle interiors and upholstery.',
+          desc: "i-Cuzi4U deep-cleans both leather and fabric car seats, expertly removing tough stains, dust mites, and bacteria for a sanitized, pristine interior.",
         },
         curtain: {
           title: 'Curtain Cleaning',
-          desc: 'Hassle-free on-site high-temperature steam sanitization and dust removal without dismantling or taking down your drapes.',
+          desc: 'i-Cuzi4U offers premium curtain cleaning services for homes and offices. Using effective, fabric-safe techniques, we completely remove stubborn stains, dust, and trapped odors.',
         },
         carpet: {
           title: 'Carpet Cleaning',
-          desc: 'Industrial-grade deep water extraction and sanitization reviving home rugs, Persian carpets, and heavy-duty office carpets.',
+          desc: 'i-Cuzi4U delivers expert carpet cleaning tailored to your specific fabric. Using professional shampooing and deep-washing techniques, we revitalize your carpets for a spotless, fresh, and healthy environment.',
         },
         'hood-hob': {
           title: 'Kitchen Hood & Hob Cleaning',
-          desc: 'Professional degreasing, carbon removal, and complete sanitization for your kitchen stovetop, exhaust ventilation, and filters.',
+          desc: 'i-Cuzi4U provide professional degreasing, carbon removal, and complete sanitization for your kitchen stovetop, exhaust ventilation, and filters.',
         },
       },
       process: {
@@ -161,27 +161,27 @@ const resources = {
         from: 'Dari',
         mattress: {
           title: 'Pembersihan Tilam',
-          desc: 'Pensterilan UV & pengekstrakan berkuasa tinggi membasmi hama habuk, bakteria, dan alergen untuk kebersihan tidur gred klinikal.',
+          desc: "Pembersihan tilam i-Cuzi4U menggabungkan pengekstrakan mendalam Karcher dan teknologi stim untuk menghapuskan sepenuhnya hama habuk, pepijat katil, kotoran, dan bakteria—menjadikan katil anda steril, segar, dan bersih tanpa noda.",
         },
         sofa: {
           title: 'Pembersihan Sofa',
-          desc: 'Syampu mendalam khusus dan penyingkiran kotoran untuk memulihkan upholsteri fabrik dan kulit asli ke keadaan asal yang bersih.',
+          desc: 'i-Cuzi4U menawarkan pembersihan sofa kulit dan fabrik yang pakar. Teknologi pembersihan mendalam termaju kami menyingkirkan kotoran degil, mensanitasi, dan memanjangkan jangka hayat perabot kegemaran anda.',
         },
         'car-seat': {
           title: 'Pembersihan Kerusi Kereta',
-          desc: 'Penyingkiran kotoran intensif, sanitasi antibakteria, dan penghilangan bau untuk semua bahagian dalaman dan upholsteri kenderaan.',
+          desc: 'i-Cuzi4U membersih secara mendalam kerusi kereta jenis kulit dan fabrik, menyingkirkan kotoran degil, hama habuk, dan bakteria secara pakar untuk dalaman yang bersih dan sanitasi sepenuhnya.',
         },
         curtain: {
           title: 'Pembersihan Langsir',
-          desc: 'Sanitasi stim bersuhu tinggi dan penyingkiran habuk di lokasi tanpa perlu membuka atau menanggalkan langsir anda.',
+          desc: 'i-Cuzi4U menawarkan perkhidmatan pembersihan langsir premium untuk rumah dan pejabat. Menggunakan teknik yang berkesan dan selamat untuk fabrik, kami menyingkirkan sepenuhnya kotoran degil, habuk, dan bau yang terperangkap.',
         },
         carpet: {
           title: 'Pembersihan Permaidani',
-          desc: 'Pengekstrakan air dalam gred industri dan sanitasi untuk menyegarkan semula permaidani rumah, permaidani Parsi, dan pejabat.',
+          desc: 'i-Cuzi4U menawarkan perkhidmatan pembersihan permaidani pakar yang disesuaikan dengan jenis fabrik anda. Menggunakan teknik syampu profesional dan basuhan mendalam, kami menghidupkan semula permaidani anda untuk persekitaran yang bersih tanpa noda, segar, dan sihat.',
         },
         'hood-hob': {
           title: 'Pembersihan Hood & Hob Dapur',
-          desc: 'Penyahgrisan profesional, penyingkiran karbon, dan sanitasi lengkap untuk dapur memasak, pengudaraan ekzos, dan penapis anda.',
+          desc: 'i-Cuzi4U menyediakan penyahgrisan profesional, penyingkiran karbon, dan sanitasi lengkap untuk dapur memasak, sistem pengudaraan ekzos, dan penapis anda.',
         },
       },
       process: {
@@ -289,27 +289,27 @@ const resources = {
         from: '起',
         mattress: {
           title: '床垫清洁',
-          desc: '采用深层紫外线杀菌与强力抽吸技术，彻底清除尘螨、细菌与过敏原，打造临床级的健康睡眠环境。',
+          desc: 'i-Cuzi4U 的床垫清洁结合了 Karcher 深层抽吸与蒸汽技术，彻底根除尘螨、床虱、污渍和细菌，让您的床垫恢复无菌、清新且洁净无瑕。',
         },
         sofa: {
           title: '沙发清洁',
-          desc: '针对布艺与真皮沙发提供专业深层洗涤与顽渍抽吸护理，令您的家具恢复洁净如初。',
+          desc: 'i-Cuzi4U 提供专业的真皮与布艺沙发清洁。我们先进的深层清洁技术能有效去除顽固污渍、进行深度消毒，并延长您心爱家具的使用寿命。',
         },
         'car-seat': {
           title: '汽车座椅清洁',
-          desc: '强力去除顽固污渍与车内异味，配合全面抗菌消毒，为全车座椅与内饰重塑清新干净。',
+          desc: 'i-Cuzi4U 专业深层清洁皮质和布艺汽车座椅，高效去除顽固污渍、尘螨和细菌，为您打造无菌且整洁如新的车内空间。',
         },
         curtain: {
           title: '窗帘清洁',
-          desc: '无需拆卸窗帘，现场提供专业高温蒸汽消毒与除尘护理，省时便捷省心。',
+          desc: 'i-Cuzi4U 为住宅和办公室提供优质的窗帘清洁服务。我们采用高效且对面料安全的专业技术，彻底清除顽固污渍、灰尘和残留异味。',
         },
         carpet: {
           title: '地毯清洁',
-          desc: '采用工业级深层水抽吸与全方位消毒设备，彻底洗净并恢复家居、波斯地毯与商用地毯的洁净松软。',
+          desc: 'i-Cuzi4U 提供针对您特定材质量身定制的专业地毯清洁服务。我们采用专业的清洗与深层洗涤技术，让您的地毯焕然一新，为您营造洁净、清新且健康的居家环境。',
         },
         'hood-hob': {
           title: '厨房抽油烟机与灶台清洁',
-          desc: '高效高效除油去垢，深层分解顽固油污与碳化残留，对抽油烟机、排烟管与灶台进行全面除菌消毒。',
+          desc: 'i-Cuzi4U 提供专业的去油污、去碳化和全面消毒服务，适用于您的厨房炉灶、排烟通风系统和过滤网。',
         },
       },
       process: {

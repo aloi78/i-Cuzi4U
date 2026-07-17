@@ -411,7 +411,7 @@ export default function App() {
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         transition={{ delay: index * 0.1 }}
-                        className="relative h-[320px] rounded-3xl overflow-hidden group cursor-pointer shadow-lg"
+                        className="relative min-h-[360px] h-full rounded-3xl overflow-hidden group cursor-pointer shadow-lg"
                         onClick={() => handleWhatsAppClick(`Hi i-Cuzi4U, I'm interested in ${t(`services.${service.id}.title`)}. Please provide a quote.`)}
                       >
                         {/* Background Image */}
@@ -431,7 +431,7 @@ export default function App() {
                             <Icon size={24} />
                           </div>
                           <h3 className="text-2xl font-bold mb-2">{t(`services.${service.id}.title`)}</h3>
-                          <p className="text-white/80 text-sm mb-6 line-clamp-2">{t(`services.${service.id}.desc`)}</p>
+                          <p className="text-white/80 text-sm mb-6">{t(`services.${service.id}.desc`)}</p>
                           <div className="flex items-center justify-between">
                             <span className="text-[#FFD800] font-bold">{t('services.from')} {service.price.split('From ')[1] || service.price}</span>
                             <div className="flex items-center gap-1 font-bold text-sm">
