@@ -5,6 +5,16 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 const resources = {
   en: {
     translation: {
+      seo: {
+        title: "Professional Deep Cleaning Services Klang Valley | i-Cuzi4U",
+        meta_desc: "i-Cuzi4U deep cleaning services in Klang Valley. Clinical-grade mattress, sofa, curtain, carpet, and car seat extraction & sanitization using eco-friendly, child-safe German Kärcher® technology.",
+        mattress_alt: "Deep mattress cleaning KL and professional dust mite removal Malaysia - i-Cuzi4U",
+        sofa_alt: "Sofa cleaning service Selangor and professional couch extraction PJ - i-Cuzi4U",
+        "car-seat_alt": "Professional car seat sanitization and upholstery wash Klang Valley - i-Cuzi4U",
+        curtain_alt: "On-site high-temperature steam curtain cleaning and sanitization - i-Cuzi4U",
+        carpet_alt: "Commercial and residential carpet cleaning service in Klang Valley - i-Cuzi4U",
+        "hood-hob_alt": "Professional kitchen hood and hob degreasing service Selangor - i-Cuzi4U"
+      },
       nav: {
         services: 'Services',
         packages: 'Packages',
@@ -103,7 +113,7 @@ const resources = {
         services: 'Services',
         company: 'Company',
         contact: 'Contact',
-        serving: 'Serving KL, Selangor, PJ, Subang, Shah Alam & more.',
+        serving: 'Serving KL, Selangor, PJ, Subang, Shah Alam, Rawang & more.',
         rights: '© 2026 i-Cuzi4U Cleaning Services. All rights reserved.',
       },
       privacy: {
@@ -133,6 +143,16 @@ const resources = {
   },
   ms: {
     translation: {
+      seo: {
+        title: "Servis Pembersihan Mendalam Profesional Lembah Klang | i-Cuzi4U",
+        meta_desc: "Servis pembersihan mendalam i-Cuzi4U di Lembah Klang. Servis basuh dan sanitasi tilam, sofa, langsir, permaidani, dan kusyen kereta menggunakan teknologi Jerman Kärcher® yang selamat untuk anak & mesra alam.",
+        mattress_alt: "Servis cuci tilam dalaman dan basmi hama habuk rumah di KL Selangor - i-Cuzi4U",
+        sofa_alt: "Servis cuci sofa Selangor KL dan pengekstrakan kusyen sofa PJ - i-Cuzi4U",
+        "car-seat_alt": "Servis cuci kusyen kereta dan sanitasi dalaman kenderaan Lembah Klang - i-Cuzi4U",
+        curtain_alt: "Servis cuci langsir stim suhu tinggi tanpa buka di Lembah Klang - i-Cuzi4U",
+        carpet_alt: "Servis cuci karpet pejabat dan kediaman gred industri di Lembah Klang - i-Cuzi4U",
+        "hood-hob_alt": "Servis cuci hood dan hob dapur, cuci berminyak profesional Selangor - i-Cuzi4U"
+      },
       nav: {
         services: 'Perkhidmatan',
         packages: 'Pakej',
@@ -231,7 +251,7 @@ const resources = {
         services: 'Perkhidmatan',
         company: 'Syarikat',
         contact: 'Hubungi',
-        serving: 'Berkhidmat di KL, Selangor, PJ, Subang, Shah Alam & banyak lagi.',
+        serving: 'Berkhidmat di KL, Selangor, PJ, Subang, Shah Alam, Rawang & banyak lagi.',
         rights: '© 2026 i-Cuzi4U Cleaning Services. Hak cipta terpelihara.',
       },
       privacy: {
@@ -261,6 +281,16 @@ const resources = {
   },
   zh: {
     translation: {
+      seo: {
+        title: "巴生谷专业深层清洁服务 | i-Cuzi4U",
+        meta_desc: "i-Cuzi4U 巴生谷专业深层清洁服务。采用安全环保的德国 Kärcher® 技术，为您提供床垫、沙发、窗帘、地毯及汽车座椅的深层抽吸与除螨消毒服务。",
+        mattress_alt: "吉隆坡除尘螨服务与雪兰莪深层床垫清洗消毒 - i-Cuzi4U",
+        sofa_alt: "巴生谷专业沙发清洗与雪兰莪布艺及真皮沙发深度去污 - i-Cuzi4U",
+        "car-seat_alt": "巴生谷汽车座椅消毒与汽车织物及皮革座椅深层清洗抽吸 - i-Cuzi4U",
+        curtain_alt: "巴生谷免拆卸上门高温蒸汽窗帘除尘消毒服务 - i-Cuzi4U",
+        carpet_alt: "巴生谷专业地毯清洁与商用及家用重度污渍除螨清洗 - i-Cuzi4U",
+        "hood-hob_alt": "雪兰莪厨房抽油烟机与灶台深度去油污和高温杀菌服务 - i-Cuzi4U"
+      },
       nav: {
         services: '服务项目',
         packages: '优惠套餐',
@@ -359,7 +389,7 @@ const resources = {
         services: '服务',
         company: '公司',
         contact: '联系',
-        serving: '服务范围包括吉隆坡、雪兰莪、八打灵再也、梳邦、莎阿南等。',
+        serving: '服务范围包括吉隆坡、雪兰莪、八打灵再也、梳邦、莎阿南、万挠等。',
         rights: '© 2026 i-Cuzi4U 清洁服务。版权所有。',
       },
       privacy: {

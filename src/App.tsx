@@ -95,6 +95,70 @@ export default function App() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  useEffect(() => {
+    // Dynamic metadata update (SEO titles & descriptions)
+    const localizedTitle = t('seo.title');
+    const localizedDesc = t('seo.meta_desc');
+    
+    if (localizedTitle) {
+      document.title = localizedTitle;
+    }
+    
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription && localizedDesc) {
+      metaDescription.setAttribute('content', localizedDesc);
+    }
+    
+    // Inject Dynamic JSON-LD Structured Data
+    const existingScript = document.getElementById('jsonld-schema');
+    if (existingScript) {
+      existingScript.remove();
+    }
+
+    const schema = {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "i-Cuzi4U Cleaning Services",
+      "image": getAssetPath(LOGO_URL),
+      "url": window.location.origin + (import.meta.env.BASE_URL || "/"),
+      "telephone": "+601162638228",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Kuala Lumpur",
+        "addressRegion": "Selangor",
+        "addressCountry": "MY"
+      },
+      "geo": {
+        "@type": "GeoCircle",
+        "geoMidpoint": {
+          "@type": "GeoCoordinates",
+          "latitude": "3.1390",
+          "longitude": "101.6869"
+        },
+        "areaServed": "Klang Valley (Kuala Lumpur, Selangor, Petaling Jaya, Subang Jaya, Shah Alam, Rawang)"
+      },
+      "sameAs": [
+        "https://www.facebook.com/icuzi4u",
+        "https://www.instagram.com/icuzi4u"
+      ],
+      "description": localizedDesc || "Professional Deep Cleaning Services Klang Valley"
+    };
+
+    const script = document.createElement('script');
+    script.id = 'jsonld-schema';
+    script.type = 'application/ld+json';
+    script.innerHTML = JSON.stringify(schema);
+    document.head.appendChild(script);
+
+    return () => {
+      const addedScript = document.getElementById('jsonld-schema');
+      if (addedScript) {
+        addedScript.remove();
+      }
+    };
+  }, [i18n.language, t]);
+
   const handleWhatsAppClick = (message: string) => {
     window.open(WHATSAPP_LINK(message), '_blank');
   };
@@ -417,7 +481,7 @@ export default function App() {
                         {/* Background Image */}
                         <img 
                           src={getAssetPath(service.image)} 
-                          alt={t(`services.${service.id}.title`)}
+                          alt={t(`seo.${service.id}_alt`)}
                           className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                           referrerPolicy="no-referrer"
                         />
@@ -462,7 +526,7 @@ export default function App() {
                             {step}
                           </div>
                           <div>
-                            <h4 className="font-bold text-lg mb-1">{t(`process.steps.${step}.title`)}</h4>
+                            <h3 className="font-bold text-lg mb-1">{t(`process.steps.${step}.title`)}</h3>
                             <p className="text-gray-600">{t(`process.steps.${step}.desc`)}</p>
                           </div>
                         </div>
@@ -589,7 +653,7 @@ export default function App() {
               </p>
             </div>
             <div>
-              <h4 className="font-bold mb-6">{t('footer.services')}</h4>
+              <h3 className="font-bold mb-6">{t('footer.services')}</h3>
               <ul className="space-y-4 text-sm text-gray-500">
                 {SERVICES.map(s => (
                   <li key={s.id}><a href="#services" onClick={() => navigateTo('home')} className="hover:text-primary transition-colors">{t(`services.${s.id}.title`)}</a></li>
@@ -597,7 +661,7 @@ export default function App() {
               </ul>
             </div>
             <div>
-              <h4 className="font-bold mb-6">{t('footer.company')}</h4>
+              <h3 className="font-bold mb-6">{t('footer.company')}</h3>
               <ul className="space-y-4 text-sm text-gray-500">
                 <li><a href="#about" onClick={() => navigateTo('home')} className="hover:text-primary transition-colors">{t('nav.about')}</a></li>
                 <li><a href="#packages" onClick={() => navigateTo('home')} className="hover:text-primary transition-colors">{t('nav.packages')}</a></li>
@@ -606,7 +670,7 @@ export default function App() {
               </ul>
             </div>
             <div>
-              <h4 className="font-bold mb-6">{t('footer.contact')}</h4>
+              <h3 className="font-bold mb-6">{t('footer.contact')}</h3>
               <ul className="space-y-4 text-sm text-gray-500">
                 <li className="flex items-center gap-2">
                   <Phone size={16} className="text-primary" />
